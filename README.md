@@ -34,11 +34,11 @@ Follow these steps to run the project locally:
     php artisan key:generate
 ## 3. Database Setup:
 - **The project is configured to use SQLite.**
-# Create the SQLite database file:
-# Windows (PowerShell): New-Item -Path database/database.sqlite -ItemType File
-# Linux/Mac/GitBash: touch database/database.sqlite
-# Run the migrations to create the tables:
+- **Create the SQLite database file:**
+- **Windows (PowerShell): New-Item -Path database/database.sqlite -ItemType File**
+- **Linux/Mac/GitBash: touch database/database.sqlite**
+- **Run the migrations to create the tables:**
     php artisan migrate
 ## 4. Run the Application:
     php artisan serve
-# Access the application at: http://127.0.0.1:8000
+- **Access the application at: http://127.0.0.1:8000**
