@@ -28,12 +28,12 @@ Follow these steps to run the project locally:
 ## 1.Install Dependencies:
     composer install
 ## 2. Environment Configuration:
-# Copy the example environment file:
+- **Copy the example environment file:**
     cp .env.example .env
-# Generate the application key:
+- **Generate the application key:**
     php artisan key:generate
 ## 3. Database Setup:
-# The project is configured to use SQLite.
+- **The project is configured to use SQLite.**
 # Create the SQLite database file:
 # Windows (PowerShell): New-Item -Path database/database.sqlite -ItemType File
 # Linux/Mac/GitBash: touch database/database.sqlite
